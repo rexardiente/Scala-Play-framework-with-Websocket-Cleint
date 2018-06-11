@@ -1,0 +1,15 @@
+engines:
+  eslint:
+    enabled: true
+
+ratings:
+  paths:
+  - "lib/**.js"
+
+exclude_paths:
+  - "riot+compiler.js"
+  - "riot+compiler.min.js"
+  - "riot.js"
+  - "riot.min.js"
+  - "test/**"
+  - "demo/**"

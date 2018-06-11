@@ -1,0 +1,27 @@
+language: node_js
+node_js:
+   - "4.2"
+
+branches:
+  only:
+    - master
+    - dev
+script:
+  make riot
+
+sudo: false
+
+after_success:
+  '[ "${TRAVIS_PULL_REQUEST}" = "false" ] && make test-sauce && make test-coveralls || false'
+
+notifications:
+    email: false
+
+env:
+  - CXX=g++-4.8
+addons:
+  apt:
+    sources:
+      - ubuntu-toolchain-r-test
+    packages:
+      - g++-4.8

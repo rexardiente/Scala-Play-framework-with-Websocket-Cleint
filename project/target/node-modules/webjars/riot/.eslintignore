@@ -1,0 +1,8 @@
+lib/browser/wrap
+lib/browser/compiler/wrap/
+test/polyfills
+test/vendor
+test/compiler/js
+test/specs/compiler/fixtures
+test/specs/compiler/expect
+test/performance/db-monster

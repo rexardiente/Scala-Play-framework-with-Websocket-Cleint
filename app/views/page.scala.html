@@ -1,0 +1,13 @@
+@()(implicit header: RequestHeader, messages: Messages, pm: PageMeta, wja: WebJarAssets)
+@helper.base {
+  <link href="@routes.Assets.at("styles/main.css")" rel="stylesheet">
+} {
+  <div class="container" id="content"></div>
+} {
+  <script src="https://cdn.jsdelivr.net/riotgear/latest/rg.min.js"></script>
+
+  <script src="@routes.Assets.at("comps/dashboard.js")"></script>
+  <script src="@routes.Assets.at("comps/auth/sign-in.js")"></script>
+  <script src="@routes.Assets.at("comps/auth/sign-up.js")"></script>
+  <script src="@routes.Assets.at("scripts/app.js")"></script>
+}

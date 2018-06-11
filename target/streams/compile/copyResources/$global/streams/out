@@ -1,0 +1,7 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(/Users/rcadiente/Documents/GitHub/ProvestRE/conf/application.conf,/Users/rcadiente/Documents/GitHub/ProvestRE/target/scala-2.11/classes/application.conf)[0m
+[0m[[0mdebug[0m] [0m	(/Users/rcadiente/Documents/GitHub/ProvestRE/conf/logback.xml,/Users/rcadiente/Documents/GitHub/ProvestRE/target/scala-2.11/classes/logback.xml)[0m
+[0m[[0mdebug[0m] [0m	(/Users/rcadiente/Documents/GitHub/ProvestRE/conf/messages,/Users/rcadiente/Documents/GitHub/ProvestRE/target/scala-2.11/classes/messages)[0m
+[0m[[0mdebug[0m] [0m	(/Users/rcadiente/Documents/GitHub/ProvestRE/conf/messages.en,/Users/rcadiente/Documents/GitHub/ProvestRE/target/scala-2.11/classes/messages.en)[0m
+[0m[[0mdebug[0m] [0m	(/Users/rcadiente/Documents/GitHub/ProvestRE/conf/messages.ja,/Users/rcadiente/Documents/GitHub/ProvestRE/target/scala-2.11/classes/messages.ja)[0m
+[0m[[0mdebug[0m] [0m	(/Users/rcadiente/Documents/GitHub/ProvestRE/conf/routes,/Users/rcadiente/Documents/GitHub/ProvestRE/target/scala-2.11/classes/routes)[0m

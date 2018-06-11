@@ -1,0 +1,23 @@
+@(header: Html = Html(""))(content: Html)(footer: Html = Html(""))(implicit requestHeader: RequestHeader, messages: Messages, pageMeta: PageMeta, wja: WebJarAssets)
+<!DOCTYPE html>
+<html lang="@messages.lang.code">
+<head>
+  <meta charset="UTF-8">
+  @pageMeta.toHtml
+  <link href="@routes.Assets.at("styles/global.css")" rel="stylesheet">
+  <link href="@routes.Assets.at("styles/global.min.css")" rel="stylesheet">
+  <link rel="stylesheet" media="screen" href="@routes.WebJarAssets.at(wja.locate("bootstrap.min.css"))">
+  @* JavaScripts.. *@
+  <script src="@routes.WebJarAssets.at(wja.locate("jquery.min.js"))"></script>
+  <script src="@routes.WebJarAssets.at(wja.locate("foundation.js"))"></script>
+  <script src='@routes.WebJarAssets.at(wja.locate("riot.min.js"))'></script>
+  <script src='@routes.WebJarAssets.at(wja.locate("lodash.min.js"))'></script>
+  <script src="@routes.WebJarAssets.at(wja.locate("bootstrap.js"))"></script>
+  @header
+</head>
+<body>
+  @content
+
+  @footer
+</body>
+</html>

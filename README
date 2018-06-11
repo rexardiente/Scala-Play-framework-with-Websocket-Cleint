@@ -1,0 +1,4 @@
+# Play Web
+
+createuser provest
+createdb --encoding=UTF8 --owner=provest provest
